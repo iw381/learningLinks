@@ -5,7 +5,14 @@ git init 		- Neues Git Repository
 git add <datei> 	- Fuegt Datei hinzu
 git add .		- Fuegt alle noch nicht hinzugefuegten Dateien hinzu
 git commit 	
-git commit --verbose 			
+git commit --verbose
+ alias: git commit -v		
 git commit -m "<Message>" 	- commit mit Message, was geaendert wurde
+git commit -a 		- add & commit
+git add . -f 		- force to search all directories
 
 gitk			- Grafisches Tool, um Repository anzusehen
+
+
+
+Workflow: git add .  -> git git commit -m "<Message>"
