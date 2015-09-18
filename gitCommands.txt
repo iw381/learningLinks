@@ -1,0 +1,11 @@
+Execution Policy
+<Befehl> -WhatIf	- Simuliert Befehl		
+--
+git init 		- Neues Git Repository
+git add <datei> 	- Fuegt Datei hinzu
+git add .		- Fuegt alle noch nicht hinzugefuegten Dateien hinzu
+git commit 	
+git commit --verbose 			
+git commit -m "<Message>" 	- commit mit Message, was geaendert wurde
+
+gitk			- Grafisches Tool, um Repository anzusehen
